@@ -13,7 +13,7 @@ class JenkinCiCdApplicationTests {
     public static Logger logger = LoggerFactory.getLogger(JenkinCiCdApplicationTests.class);
     @Test
     void contextLoads() {
-        logger.info("Test case excuiting...");
+        logger.info("Test r case excuiting...");
         logger.info("Test case excuiting... second log statment");
         assertEquals(true, true);
     }
